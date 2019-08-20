@@ -1,0 +1,12 @@
+img {
+    height: 300px;
+    width: 300px
+}
+
+body{
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}

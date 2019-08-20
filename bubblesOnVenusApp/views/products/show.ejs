@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|DM+Serif+Display&display=swap" rel="stylesheet">
+        <title><%=product.name%></title>
+    </head>
+    <body>
+    <header>
+            <nav>
+                <ul>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='/users'>Users Index</a></li>
+                </ul> 
+            </nav>
+        </header>
+        <section>
+        <h1><%=product.name%></h1><br/>
+        <img src="<%=product.img%>"><br/>
+        <h3><%=product.description%></h3>
+        <h4><%=product.ingredients%></h4>
+        </section>
+        <a href="/products/<%=product._id%>/edit">Edit Product Information</a>
+    
+    </body>
+</html>
